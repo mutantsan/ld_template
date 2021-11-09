@@ -1,0 +1,4 @@
+administer ld_template configuration:
+  title: 'Administer ld_template configuration'
+  description: 'Optional description.'
+  restrict access: true

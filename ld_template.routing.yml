@@ -1,0 +1,15 @@
+ld_template.example:
+  path: '/ld-template/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\ld_template\Controller\LdTemplateController::build'
+  requirements:
+    _permission: 'access content'
+
+ld_template.settings_form:
+  path: '/admin/config/system/ld-template'
+  defaults:
+    _title: 'ld_template settings'
+    _form: 'Drupal\ld_template\Form\SettingsForm'
+  requirements:
+    _permission: 'administer ld_template configuration'

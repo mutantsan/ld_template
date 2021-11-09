@@ -1,0 +1,6 @@
+ld_template.settings_form:
+  title: ld_template
+  description: Configure ld_template.
+  parent: system.admin_config_system
+  route_name: ld_template.settings_form
+  weight: 10

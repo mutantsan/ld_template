@@ -1,0 +1,8 @@
+ld_template:
+  js:
+    js/ld-template.js: {}
+  css:
+    component:
+      css/ld-template.css: {}
+  dependencies:
+    - core/drupalSettings

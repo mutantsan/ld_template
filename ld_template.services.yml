@@ -1,0 +1,6 @@
+services:
+  ld_template.event_subscriber:
+    class: Drupal\ld_template\EventSubscriber\LdTemplateSubscriber
+    arguments: ['@messenger']
+    tags:
+      - { name: event_subscriber }
